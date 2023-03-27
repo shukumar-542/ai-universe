@@ -1,13 +1,15 @@
+import Button from "./components/Button/Button"
+import Card from "./components/Card/Card"
+import Header from "./components/Header/Header"
 
 
 function App() {
 
   return (
     <div className="App">
-       <h1 className="text-3xl font-bold text-center ">
-      Hello world!
-    </h1>
-   
+      <Header></Header>
+      <Button></Button>
+      <Card></Card>
     </div>
   )
 }
